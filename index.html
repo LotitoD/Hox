@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Hox</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__logo"><a href="#">HOX</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">HOME</a></li>
+          <li class="link"><a href="#about">ACERCA DE</a></li>
+          <li class="link"><a href="#project">PROJECTOS</a></li>
+          <li class="link"><a href="#contact">CONTACTO</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn btn__primary">Log In</button>
+          <button class="btn btn__secondary">Registrate ahora</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="header__container">
+        <div class="header__content">
+          <h1>Una casa construida y única con amor y sueños.</h1>
+          <p>
+            Descubra una selección curada de casas, apartamentos y locales comerciales.
+            propiedades, junto con consejos de expertos, conocimientos del mercado y valiosos
+            Recursos para ayudarle a tomar las mejores decisiones inmobiliarias. Únase a nosotros
+            ¡Hoy y abramos las puertas de la propiedad de sus sueños!
+          </p>
+          <div class="header__btns">
+            <button class="btn btn__secondary">Compra ahora</button>
+            <button class="btn btn__primary">Ver más</button>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h3>ACERCA DE</h3>
+        <h2 class="section__header">
+          Empresa inmobiliaria galardonada en Dubái
+        </h2>
+        <p class="section__subheader">
+          Si usted es un comprador de vivienda por primera vez, un inversionista experimentado o simplemente
+          Si busca un cambio, estamos aquí para guiarlo en cada paso del camino.
+          Nuestra misión es hacer que su viaje inmobiliario sea fluido y exitoso.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <h4>PROYECTOS ANTERIORES</h4>
+            <p>34+</p>
+          </div>
+          <div class="about__card">
+            <h4>AÑOS DE EXPERIENCIA</h4>
+            <p>20+</p>
+          </div>
+          <div class="about__card">
+            <h4>PROYECTOS EN CURSO</h4>
+            <p>12</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project__container" id="project">
+      <div class="project__header">
+        <div>
+          <h2 class="section__header">Proyectos en curso</h2>
+          <p class="section__subheader">
+            Estamos dedicados a ayudarle a encontrar la propiedad de sus sueños con facilidad.
+            y confianza.
+          </p>
+        </div>
+        <div class="project__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="project__card">
+              <img src="project-1.jpg" alt="project" />
+              <div class="project__content">
+                <div class="project__details">
+                  <h4>Apartamentos en Palm View</h4>
+                  <p>
+                    <span><i class="ri-map-pin-line"></i></span>
+                    Palma Jumeirah, Dubái
+                  </p>
+                  <button>Reserva ahora</button>
+                </div>
+                <div class="project__ratings">
+                  <div class="stars">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-half-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                  <div class="price">1200$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project__card">
+              <img src="project-2.jpg" alt="project" />
+              <div class="project__content">
+                <div class="project__details">
+                  <h4>Residencias en el paisaje urbano</h4>
+                  <p>
+                    <span><i class="ri-map-pin-line"></i></span>
+                    Centro de Dubái
+                  </p>
+                  <button>Reserva ahora</button>
+                </div>
+                <div class="project__ratings">
+                  <div class="stars">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-half-fill"></i></span>
+                  </div>
+                  <div class="price">1000$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project__card">
+              <img src="project-3.jpg" alt="project" />
+              <div class="project__content">
+                <div class="project__details">
+                  <h4>Marina Heights</h4>
+                  <p>
+                    <span><i class="ri-map-pin-line"></i></span>
+                    Dubai Marina
+                  </p>
+                  <button>Reserva ahora</button>
+                </div>
+                <div class="project__ratings">
+                  <div class="stars">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                  </div>
+                  <div class="price">1100$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project__card">
+              <img src="project-4.jpg" alt="project" />
+              <div class="project__content">
+                <div class="project__details">
+                  <h4>Pisos rosa del desierto</h4>
+                  <p>
+                    <span><i class="ri-map-pin-line"></i></span>
+                    Al Barsha, Dubai
+                  </p>
+                  <button>Reserva ahora</button>
+                </div>
+                <div class="project__ratings">
+                  <div class="stars">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-half-fill"></i></span>
+                  </div>
+                  <div class="price">1500$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project__card">
+              <img src="project-5.jpg" alt="project" />
+              <div class="project__content">
+                <div class="project__details">
+                  <h4>Golden Sands Suites</h4>
+                  <p>
+                    <span><i class="ri-map-pin-line"></i></span>
+                    Bur Dubai
+                  </p>
+                  <button>Reserva ahora</button>
+                </div>
+                <div class="project__ratings">
+                  <div class="stars">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-half-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                  <div class="price">1300$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project__card">
+              <img src="project-6.jpg" alt="project" />
+              <div class="project__content">
+                <div class="project__details">
+                  <h4>Bliss Residences</h4>
+                  <p>
+                    <span><i class="ri-map-pin-line"></i></span>
+                    Jumeirah Beach, Dubai
+                  </p>
+                  <button>Reserva ahora</button>
+                </div>
+                <div class="project__ratings">
+                  <div class="stars">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                  <div class="price">1400$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="contact__image">
+        <img src="contact.jpg" alt="contact" />
+      </div>
+      <div class="contact__content">
+        <h2 class="section__header">Contáctanos</h2>
+        <p class="section__subheader">
+          Descubra la diferencia, donde la experiencia se une a la excelencia en la realidad
+          bienes. Emprendamos juntos este apasionante viaje.
+        </p>
+        <form action="#">
+          <div class="form__group">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+          </div>
+          <div class="form__group">
+            <input type="text" placeholder="Email Address" />
+            <input type="text" placeholder="Phone Number" />
+          </div>
+          <textarea cols="30" rows="5" placeholder="Description"></textarea>
+          <button>ENVIAR MENSAJE</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>HOX</h4>
+          <p>
+            Nuestro equipo de profesionales experimentados está comprometido a brindarle
+            con un servicio excepcional, un profundo conocimiento del mercado y
+            Soluciones personalizadas adaptadas a sus necesidades únicas.
+          </p>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </span>
+            <span>
+              <a href="https://www.linkedin.com/in/daniellotito/"><i class="ri-linkedin-fill"></i></a>
+            </span>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Información de la compañia</h4>
+          <a href="#home">Home</a>
+          <a href="#about">Acerca de</a>
+          <a href="#project">Projectos</a>
+          <a href="#contact">Contacto</a>
+        </div>
+        <div class="footer__col">
+          <h4>Recursos</h4>
+          <a href="#">Terminos</a>
+          <a href="#">Condiciones</a>
+          <a href="#">Póliza</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contacto</h4>
+          <a href="#">
+            <span><i class="ri-mail-line"></i></span> dlotitoar@gmail.com
+          </a>
+          <a href="#">
+            <span><i class="ri-phone-line"></i></span> +54 11 3701-9762
+          </a>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 LotitoD. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
